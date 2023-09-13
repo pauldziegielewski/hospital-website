@@ -1,0 +1,375 @@
+/* styles.css */
+* {
+    font-family: poppins;
+}
+
+/* Reset some default styling */
+body{
+    width: 1512px;
+    height: 1944px;
+}
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+ 
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    background: #FFF;
+}
+
+.icon-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 134px;
+}
+
+.logo-part1 {
+    color: var(--primary, #1B6B93);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.72px;
+
+}
+
+.logo-part2 {
+    color: var(--secondary, #4FC0D0);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.72px;
+
+}
+
+.search {
+    width: 327px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.search input {
+    outline: none; /* Remove the default focus outline */
+    transition: border-color 0.3s ease-in-out; /* Add smooth transition for the border color change */
+}
+
+.search input:focus {
+    border-color: #4FC0D0; /* Change the border color when the input is focused */
+}
+.language-dropdown {
+    display: flex;
+padding: 12px 13px;
+justify-content: center;
+align-items: center;
+gap: 25px;
+height: 44px;
+padding-right: 134px;
+padding-left: 40px
+}
+
+
+
+.sign-up {
+    border-radius: 10px;
+background: var(--secondary, #4FC0D0);
+display: flex;
+padding: 12px 22px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: var(--white, #FFF);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+letter-spacing: 0.48px;
+padding-left: 40pxl
+}
+
+
+.header-section input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.header-section a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+/* Hero section styles */
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    background: rgba(79, 192, 208, 0.05);
+}
+
+.multitalk {
+    width: 579px;
+    display: flex;
+    gap: 20px;
+}
+
+.MultiTalk {
+    color: var(--black, #121212);
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.healthcare {
+    color: var(--primary, #1B6B93);
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.slogan {
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.text {
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.hero-text {
+   
+    width: 567px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ************************************************** */
+/* Language section styles */
+.language-section {
+    padding: 30px;
+    background: var(--primary, #1B6B93);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 134px;
+    
+}
+.chat {
+    margin-bottom: 134px;
+}
+
+.help {
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+}
+
+.lang-title {
+    color: #FFF;
+    padding-bottom: 30px;
+
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.lang-text {
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 133.333% */
+width: 949px;
+margin-bottom: 30px;
+
+}
+
+select {
+    display: flex;
+width: 327px;
+height: 48px;
+padding: 12px 12px 12px 16px;
+justify-content: flex-end;
+align-items: center;
+gap: 12px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid var(--sky-light, #E3E5E5);
+background: var(--sky-white, #FFF);
+}
+
+
+
+
+
+
+/* Circular images section styles */
+.circular-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    padding-top: 120px;
+    gap: 90px;
+
+}
+
+.circle-img {
+border: 1px solid var(--primary, #1B6B93);
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+box-shadow: 0px 5.126750946044922px 7.690127372741699px 0px rgba(151, 151, 151, 0.08);
+flex-shrink: 0;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 170.05px;
+  height: 170.05px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.circle img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+
+
+/* ************************************************************* */
+/* Social icons section styles */
+.social-icons {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    margin-left: 20px;
+    
+}
+
+/* Footer styles */
+footer {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+    border-top: 1px solid blue;
+  }
+  
+  .footer {
+    margin-top: 60px;
+  }
+
+
+
+
+.language-dropdown {
+  position: relative;
+  width: 200px;
+}
+
+.selected-option {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 8px;
+}
+
+.flag {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.arrow {
+  margin-left: auto;
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+}
+
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  display: none;
+  background-color: #fff;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
