@@ -1,4 +1,5 @@
 # hospital-website
 
-[Paul Dziegielewski](https://github.com/pauldziegielewski)
-Dhaval Shah[https://github.com/mi11dc]
+Contributors
+[Paul Dziegielewski](https://github.com/pauldziegielewski)<br />
+[Dhaval Shah](https://github.com/mi11dc)
